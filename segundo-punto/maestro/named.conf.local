@@ -1,0 +1,6 @@
+zone "byteme.com" {
+    type master;
+    file "/etc/bind/db.byteme.com";
+    allow-transfer { 192.168.50.2; };  # IP del esclavo
+};
+
